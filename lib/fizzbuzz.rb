@@ -3,11 +3,11 @@
 
 def fizzbuzz(number)
   #insert code here
-  if number  #divisoble by
+  if (number % 3) == 0
     puts "Fizz"
-  elsif number #divisible by 5
+  elsif (number % 5) == 0
     puts "Buzz"
-  elsif number #divisible by 3 and 5
+  elsif (number % 3) == 0 || (number % 5 == 0)
     puts "FizzBuzz"
   else
     puts "#{number}"
