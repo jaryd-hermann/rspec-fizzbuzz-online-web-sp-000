@@ -3,4 +3,4 @@
 require_relative '../lib/fizzbuzz.rb'
 
 
-fizzbuzz(5)
+fizzbuzz(3)
