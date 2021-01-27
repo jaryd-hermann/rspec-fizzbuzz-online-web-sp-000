@@ -3,13 +3,12 @@
 
 def fizzbuzz(n)
   if (n % 3 == 0)
-    arr << "Fizz"
+    puts "Fizz"
   elsif (n % 5 == 0)
-    arr <<  "Buzz"
+    puts <<  "Buzz"
   elsif ((n % 3 == 0) && (n % 5 == 0))
-    arr <<  "FizzBuzz"
+    puts <<  "FizzBuzz"
   else
-    arr <<  n
+    puts <<  n
 end
-return arr
 end
