@@ -9,6 +9,6 @@ def fizzbuzz(n)
   elsif ((n % 3 == 0) && (n % 5 == 0))
   "FizzBuzz"
   else
-    puts <<  n
+  
 end
 end
